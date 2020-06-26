@@ -19,7 +19,7 @@ struct ContentView: View {
 }
 
 private struct SetDesgin<Content:View>: View {
-    
+
     let c: Color
     let viewBuilder: () -> Content
     var body: some View {
